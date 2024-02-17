@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.header {
+    height: 70px;
+    position: relative;
+    background: blue;
+}
+
+.header__content {
+    position: absolute;
+    z-index: 9;
+    top: 50px;
+    left: 70px;
+    right: 70px;
+    bottom: 80px;
+
+    background-color: red;
+    
+    pointer-events: none;
+}
+  
+.nav__list {
+    font-size: 36px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.menu {
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    right: 100px; 
+}
+
+.back-to-top {
+    width: 36px;
+    height: 36px;
+    font-size: 20px;
+    position: fixed;
+    bottom: 15px;
+    right: 18px;
+    z-index: 99999;
+    background-color: rgba(255, 255, 255, .85);
+    color: #009cff;
+    border-radius: 3px !important;
+    border: solid 1px #009cff;
+    display: none;
+}
+
+@media screen and (min-width: 400px) {
+   .back-to-top {
+       bottom: 50px;
+       right: 50px;
+   }
+}
+
+.back-to-top:after {
+        top: 10px;
+        left: 12px;
+        content: "^";
+        position: absolute;
+        text-align: center;
+        font-family: FontAwesome;
+    }
+
+    .back-to-top:hover {
+        color: #fff;
+        background: #1c84c6;
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+        cursor: pointer;
+    }
+
+.logo {
+    width: 100px;
+    
+}
+
+.button {
+    color: white;
+    background-color: red;
+    border: red;
+}
+
+.base {
+    background-image: url(img/Синий\ танкер\ на\ льду.jpg);
+    color: white;
+}
+
+.story {
+    background-image: url(img/Синий\ танкер.jpg);
+    color: white;
+}
+
+.footer {
+    background-color: blue;
+    color: white;
+}
+
+.menu-footer {
+    color: white;
+}
+
+.logo-footer {
+    width: 200px;
+}
+
+.header__blue {
+    background-color: blue;
+}
+
+.section-service__main-title{
+    text-align: center;
+    font-weight: 600;
+    padding-top: 50px;
+}
+.section-functions__main-title{
+    text-align: center;
+    font-weight: 600;
+    padding-top: 50px;
+}
+.section-functions__updates-title{
+    text-align: center;
+    font-weight: 600;
+    padding-top: 50px;
+}
+
+.shadow-lg {
+    background-image: image();
+}
+
+.section-history .container {
+    background-image: url(img/Синий\ танкер\ на\ льду.jpg);
+    color: white;
+    height: 490px;
+}
+.section-history p{
+    width: 500px;
+}
+.section-history__main-info{
+    padding-top: 100px;
+}
+.container__nav {
+    background-image: url(img/Синий\ танкер.jpg);
+    color: white;
+}
+
+.btn__n {
+    background-color: red;
+    border: none;
+    
+    color: white;
+}
+
+.nav-link__nav {
+    color: white;
+}
